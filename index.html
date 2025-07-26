@@ -1,1 +1,443 @@
-hello
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="장현준 시니어 백엔드 개발자 포트폴리오 - Java, Spring, Python, AWS 기반 MSA 아키텍처 전문가 경력 및 프로젝트 소개.">
+  <meta name="author" content="Hyunjun Jang">
+  <title>장현준 | 시니어 백엔드 & 클라우드 아키텍트 포트폴리오</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+      background-color: #f0f2f5;
+      color: #333;
+      margin: 0;
+      padding: 40px;
+    }
+    .container {
+      max-width: 1960px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      overflow: auto;
+    }
+    h1 {
+      font-size: 32px;
+      color: #2c3e50;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 24px;
+      color: #2980b9;
+      margin-top: 40px;
+      border-bottom: 2px solid #2980b9;
+      padding-bottom: 4px;
+    }
+    h3 {
+      font-size: 18px;
+      margin-top: 20px;
+      color: #555;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li {
+      margin: 6px 0;
+    }
+    ul ul {
+      margin-left: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      font-size: 14px;
+    }
+    table thead {
+      background-color: #ecf0f1;
+    }
+    table thead th {
+      padding: 15px 0;
+      border-bottom-color: #aaa;
+      border-bottom-width: 2px;
+    }
+    table th, table td {
+      border: 1px solid #ccc;
+      padding: 8px 10px;
+      text-align: left;
+      text-align: center;
+    }
+    code {
+      background: #e8e8e8;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-size: 13px;
+    }
+    .subtitle {
+      color: #7f8c8d;
+      margin-bottom: 20px;
+      font-size: 16px;
+    }
+    .text-left {
+      text-align: left;
+    }
+    .header {
+      background:#e8f4fc; 
+      padding:30px 15px; 
+      border-radius:8px; 
+      margin-bottom:20px;
+      border: solid 1px rgb(0, 0, 72);
+    }
+    .header > h1 {
+      margin: 0;
+      display: inline-block;
+      width: 100px;
+    }
+    .header > h3 {
+      padding: 0;
+      margin: 0;
+      display: inline-block;
+      color: #1d2951;
+    }
+    .header > p {
+      color: #444;
+      margin-bottom: 0;
+    }
+    .highlight-result {
+      background-color: #fdf6e3;
+      border-left: 4px solid #f39c12;
+      padding: 8px 12px;
+      margin-top: 8px;
+      border-radius: 6px;
+      font-size: 14px;
+      color: #333;
+    }
+    
+    .skill-inventory-wrapper {
+      overflow-y: auto;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+    }
+
+    .skill-inventory-wrapper table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    .skill-inventory-wrapper thead th {
+      position: sticky;
+      top: 0;
+      z-index: 5;
+      background-color: #ecf0f1;
+    }
+    
+    @media (max-width: 856px) {
+      .skill-inventory-wrapper {
+        max-height: 700px;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        margin-top: 10px;
+      }
+      .skill-inventory-wrapper table {
+        min-width: 960px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>장현준</h1>
+      <h3>풀스택/DevOps/End to End 가능 개발자</h3>
+      <p>총 경력: 16년 5개월 · 팀장/PL 경험 7년 · AWS 기반 대형 프로젝트 다수 수행</p>
+    </div>
+
+    <h2>1. 기본 프로필</h2>
+    <ul>
+      <li><strong>이름 :</strong> 장현준</li>
+      <li><strong>생년 :</strong> 1984년 (만 40세)</li>
+      <li><strong>학력 :</strong> 오산대학교 관광과(중퇴)</li>
+      <li><strong>기술역량 :</strong> 백엔드 / 프론트엔드 / DevOps / PL / TPM</li>
+    </ul>
+    
+    <h2>2. 경력 및 기술 정량 요약</h2>
+    <ul>
+      <li><strong>총 경력:</strong> 16년 5개월</li>
+      <li><strong>팀 리딩 경험:</strong> 7년 이상 팀장, 부장급 리딩(PL 및 TPM 경험 포함)
+        <ul><li>기획, 개발, 배포, 운영까지 전 과정을 리딩</li></ul>
+      </li>
+      <li><strong>프로젝트 수:</strong> 70건 이상 (공공기관, 커머스, 물류, IoT, 자산관리 등)</li>
+      <li><strong>클라우드 기반 구축 경험:</strong> AWS Cloud, 서버리스, MSA 아키텍처 포함 20건 이상</li>
+      <li><strong>직접 제안서 작성 경험:</strong> 3건 이상</li>
+      <li><strong>기술 스택 숙련도:</strong>
+        <ul>
+          <li>Java(전자정부, Spring, Spring Boot): 10년 이상</li>
+          <li>Python(FastAPI 등): 5년 이상</li>
+          <li>Kotlin, Vue.js, React: 필요 시 주도적 개발 가능</li>
+          <li>AWS Lambda, Aurora, DynamoDB, S3 등: 7년 이상 실무 적용</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2>3. 주요 기술 스택</h2>
+    <table>
+      <thead>
+      <tr>
+        <th>분야</th>
+        <th>주요 기술</th>
+      </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>백엔드</td>
+          <td class="text-left">Java (Spring, Spring Boot), Python (FastAPI, Flask), Kotlin, Node.js, PHP, ASP(.NET), C#</td>
+        </tr>
+        <tr>
+          <td>프론트엔드</td>
+          <td class="text-left">Vue.js, React, JavaScript, TypeScript, C++</td>
+        </tr>
+        <tr>
+          <td>DB</td>
+          <td class="text-left">MySQL, MSSQL, Oracle, PostgreSQL, Redis, NoSQL</td>
+        </tr>
+        <tr>
+          <td>인프라</td>
+          <td class="text-left">AWS (Lambda, S3, ELB, EKS, Beanstalk, CloudFront, DynamoDB 등), Docker, K8s, Linux</td>
+        </tr>
+        <tr>
+          <td>협업/배포</td>
+          <td class="text-left">Git, GitHub Actions, CodePipeline, Slack, Jandi, Jira, Notion, Figma</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>4. 주요 프로젝트</h2>
+    <h3>Property Management System (빌딩플러스)</h3>
+    <ul>
+      <li>2024.01 ~ 2025.02 | 스파크플러스 | 개발, TPM</li>
+      <li>부동산 자산/계약/청구/재무 통합 시스템</li>
+      <li>AWS 기반 인프라 설계 및 개발 / 운영 주도</li>
+      <li>Python, FastAPI, RestAPI, MSA, Vue.js, Aurora MySQL, Redis, Docker, AWS, CI/CD</li>
+      <li class="highlight-result"><strong>성과:</strong> 수기 청구서 프로세스 자동화로 운영 시간 50% 절감 및 월간 리포트 자동화 도입</li>
+    </ul>
+      
+    <h3>Fulfillment Management System (물류 시스템)</h3>
+    <ul>
+      <li>2018.12 ~ 2023.02 | 브랜디 / 아비드이앤에프 | 개발, PL, DevOps</li>
+      <li>이커머스 물류/상품/재고/통계/CS/송장 자동화 시스템</li>
+      <li>SNS/SQS/MQTT 등 Event-Driven Architecture 설계 및 AWS 서버리스 구조</li>
+      <li>Python, AWS Lambda, FastAPI, RestAPI, MSA, Vue.js, Aurora MySQL, Redis, Docker, AWS, CI/CD</li>
+      <li class="highlight-result"><strong>성과:</strong> 자동화 시스템 도입으로 배송 오류율 30% 감소, 인력 운영 효율화</li>
+    </ul>
+    
+    <h3>S-Bike 시스템 구축</h3>
+    <ul>
+      <li>2017.10 ~ 2018.06 | 트라이앵글와이드 | 개발, SE, PL</li>
+      <li>Java 기반 IoT 연동 시스템</li>
+      <li>TCP/IP, Bluetooth 기반 Packet Protocol 설계 및 송수신 암호화 모듈 개발</li>
+      <li>Java, Spring, iOS/Android, Bluetooth, TCP/IP, Network Programming, Multi Thread, AWS, Aurora MySQL, MSA</li>
+      <li class="highlight-result"><strong>성과:</strong> IoT 연동 설계 최적화 및 실시간 위치 송수신 시스템 안정화</li>
+    </ul>
+    
+    <h3>홈페이지 개발 및 공공기관 / 기업 프로젝트</h3>
+    <ul>
+      <li>2008.06 ~ 2018.06 | 트라이앵글와이드 | 개발, SE, PL</li>
+      <li>한국고용정보원, 한국표준과학연구원, SKT 등 SI 프로젝트 개발</li>
+      <li>PHP, ASP, Java, Spring, iBatis, myBatis, Tomcat, Nginx, Apache, Jeus, WebToB, Mysql, MSSQL, Oracle, Tibero, C++, MQTT, BLE, IoT 기반 솔루션</li>
+      <li class="highlight-result"><strong>성과:</strong> 다수 SI 프로젝트 성공 구축, 납기 준수율 100% 달성</li>
+    </ul>
+    
+    <h2>5. 경력사항</h2>
+    <table border="1" cellspacing="0" cellpadding="5">
+      <thead>
+        <tr>
+          <th>회사명</th>
+          <th>기간</th>
+          <th>직위</th>
+          <th>담당업무</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>NetFinder</td>
+          <td>2008.06 ~ 2010.08</td>
+          <td>사원</td>
+          <td class="text-left">홈페이지 개발 및 유지보수</td>
+        </tr>
+        <tr>
+          <td>트라이앵글와이드</td>
+          <td>2010.10 ~ 2012.06</td>
+          <td>대리</td>
+          <td class="text-left">SI 개발 및 내부 프로젝트 개발</td>
+        </tr>
+        <tr>
+          <td>상진유니텍</td>
+          <td>2010.07 ~ 2012.12</td>
+          <td>사원</td>
+          <td class="text-left">주차관제시스템 개발</td>
+        </tr>
+        <tr>
+          <td>당근커뮤니케이션</td>
+          <td>2013.01 ~ 2014.05</td>
+          <td>대리</td>
+          <td class="text-left">자체 솔루션 기능 개발 및 유지보수</td>
+        </tr>
+        <tr>
+          <td>트라이앵글와이드</td>
+          <td>2014.05 ~ 2018.06</td>
+          <td>차장</td>
+          <td class="text-left">SI 개발 및 내부 프로젝트 개발, 팀장 수행</td>
+        </tr>
+        <tr>
+          <td>브랜디</td>
+          <td>2018.07 ~ 2022.04</td>
+          <td>차장</td>
+          <td class="text-left">내부 홈페이지 및 프로젝트 개발, 팀장 및 PL 수행</td>
+        </tr>
+        <tr>
+          <td>아비드이앤에프</td>
+          <td>2022.04 ~ 2022.10</td>
+          <td>차장</td>
+          <td class="text-left">내부 홈페이지 및 내부 프로젝트 개발, 팀장 및 PL 수행</td>
+        </tr>
+        <tr>
+          <td>브랜디</td>
+          <td>2022.10 ~ 2023.02</td>
+          <td>차장</td>
+          <td class="text-left">내부 홈페이지 및 내부 프로젝트 개발, 팀장 및 PL 수행</td>
+        </tr>
+        <tr>
+          <td>스파크플러스</td>
+          <td>2023.04 ~ 2025.02</td>
+          <td>차장</td>
+          <td class="text-left">내부 프로젝트 개발, 팀장 및 TPM, PL 수행</td>
+        </tr>
+        <tr>
+          <td>트리거테크</td>
+          <td>2023.06 ~ </td>
+          <td>차장</td>
+          <td class="text-left">프로젝트 개발</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>6. SKILL INVENTORY</h2>
+    <div class="skill-inventory-wrapper">
+      <table border="1" cellspacing="0" cellpadding="5">
+        <colgroup>
+          <col />
+          <col width="80px" />
+          <col width="130px" />
+          <col width="130px" />
+          <col width="110px" />
+          <col width="110px" />
+          <col width="110px" />
+          <col width="110px" />
+          <col width="110px" />
+          <col width="110px" />
+          <col width="110px" />
+        </colgroup>
+        <thead>
+          <tr>
+            <th>프로젝트명(업무명)</th>
+            <th>참여기간</th>
+            <th>고객사</th>
+            <th>근무회사</th>
+            <th>역할</th>
+            <th>OS</th>
+            <th>개발언어</th>
+            <th>데이터베이스</th>
+            <th>사용툴</th>
+            <th>통신/장비</th>
+            <th>기타</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>시나리오 기반 테스트 자동화 설계</td><td>2025.07 ~</td><td>트리거테크</td><td>트리거테크</td><td>개발</td><td></td><td>Java, SpringBoot</td><td></td><td>IntelliJ, VSCode, Gitlab</td><td></td><td>TDD</td></tr>
+          <tr><td>데이터파이프라인 모니터링 시스템 제안서 작성</td><td>2025.06 ~2025.06</td><td>선박해양플랜트연구소</td><td>트리거테크</td><td>PM</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr><td>SK매직 에어봇 통합관제</td><td>2025.06 ~2025.06</td><td>SK매직</td><td>트리거테크</td><td>QA</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr><td>(Cloud System) Property Management System (빌딩플러스)</td><td>2024.01 ~2025.02</td><td>스파크플러스</td><td>스파크플러스</td><td>개발, TPM</td><td>Amazon Linux</td><td>Python, VueJs</td><td>Aurora MySQL, Redis, Dynamo</td><td>VSCode, Git, Figma, Notion</td><td></td><td>Docker, MSA</td></tr>
+          <tr><td>(Cloud System) 스파크원통합시스템</td><td>2023.04 ~2024.12</td><td>스파크플러스</td><td>스파크플러스</td><td>개발</td><td>Amazon Linux</td><td>Python, VueJs</td><td>Aurora MySQL, Redis, Dynamo</td><td>VSCode, Git, Figma, Notion</td><td></td><td>RestfulAPI, Docker, MSA</td></tr>
+          <tr><td>(Cloud System) Live Packing (라이브 패킹)</td><td>2022.10 ~2023.02</td><td>브랜디</td><td>브랜디,<br />아비드이앤에프</td><td>PL, DevOps</td><td>Amazon Linux</td><td>Python, VueJs</td><td>Aurora MySQL, Redis, Dynamo</td><td>VSCode, Git, Figma, Notion, Jira</td><td></td><td>Electron, Docker</td></tr>
+          <tr><td>(Cloud System) Transportation Management System (라스트 마일)</td><td>2022.10 ~2023.02</td><td>브랜디</td><td>브랜디,<br />아비드이앤에프</td><td>PL, DevOps</td><td>Amazon Linux</td><td>Python, VueJs</td><td>Aurora MySQL, Redis</td><td>VSCode, Git, Figma, Notion, Jira</td><td></td><td>RestfulAPI, CI/CD, Docker, MSA</td></tr>
+          <tr><td>(Cloud System) Fulfillment Management System (물류 시스템)</td><td>2018.12 ~2023.02</td><td>브랜디</td><td>브랜디,<br />아비드이앤에프</td><td>개발, PL, DevOps</td><td>AWS Lambda</td><td>Python, VueJs</td><td>Aurora MySQL, Redis, Dynamo</td><td>VSCode, Git, Figma, Notion, Jira</td><td></td><td>RestfulAPI, CI/CD, MSA</td></tr>
+          <tr><td>(Cloud System) 하이버 홈페이지(PC)</td><td>2018.10 ~2018.10</td><td>브랜디</td><td>브랜디</td><td>개발</td><td>AWS CloudFront,S3</td><td>VueJs</td><td></td><td>VSCode, Git, Figma, Notion, Jira</td><td></td><td>RestfulAPI, CI/CD, MSA</td></tr>
+          <tr><td>(Cloud System) 브랜디 홈페이지(PC)</td><td>2018.07 ~2018.10</td><td>브랜디</td><td>브랜디</td><td>개발</td><td>AWS CloudFront,S3</td><td>Python, VueJs</td><td></td><td>VSCode, Git, Figma, Notion, Jira</td><td></td><td>RestfulAPI, CI/CD, MSA</td></tr>
+          <tr><td>(Cloud System) S bike 구축</td><td>2017.10 ~2018.06</td><td>매스아시아</td><td>트라이앵글와이드</td><td>개발, DevOps, PL</td><td>CentOS, iOS, Android</td><td>Java, Spring, Jsp, Object-C</td><td>Aurora MySQL</td><td>Eclipse, Svn, Jira, XCode</td><td>WCDMA, TCP/IP, Bluetooth</td><td>RestfulAPI, MSA</td></tr>
+          <tr><td>ICT농촌마을 통합모니터링 구축</td><td>2017.08 ~2017.12</td><td>SKT</td><td>트라이앵글와이드</td><td>개발, PL</td><td>CentOS</td><td>Java, Spring, Jsp</td><td>MySQL</td><td>Eclipse, Svn, Jira</td><td></td><td></td></tr>
+          <tr><td>고용정보원 원내 홍보기기 구축</td><td>2017.06 ~2017.07</td><td>한국고용정보원</td><td>트라이앵글와이드</td><td>개발, PL</td><td>Windows</td><td>C++</td><td>MySQL</td><td>C++Builder XE6, Svn</td><td></td><td></td></tr>
+          <tr><td>ZPK lifeplus 구축</td><td>2016.12 ~2017.03</td><td>쥴릭파마</td><td>트라이앵글와이드</td><td>개발, PL</td><td>CentOS,Windows</td><td>Java, Spring, Jsp, C++</td><td>MySQL</td><td>Eclipse, Svn, Jira, C++Builder XE6</td><td></td><td></td></tr>
+          <tr><td>전국장학재단협의회 구축</td><td>2016.11 ~2017.02</td><td>한국장학재단</td><td>트라이앵글와이드</td><td>개발, PL</td><td>CentOS</td><td>Java, Spring, Jsp</td><td>Oracle</td><td>Eclipse, Svn, Jira</td><td></td><td>Jeus, WebtoB</td></tr>
+          <tr><td>웹사이트 리뉴얼 구축</td><td>2016.11 ~2017.02</td><td>세우테크</td><td>트라이앵글와이드</td><td>개발, PL</td><td>CentOS</td><td>Java, Spring, Jsp</td><td>MySQL</td><td>C++Builder XE6, Svn</td><td></td><td></td></tr>
+          <tr><td>방문 출석/통계 솔루션</td><td>2016.10 ~2017.03</td><td>BTMK</td><td>트라이앵글와이드</td><td>개발, PL</td><td>CentOS, iOS, Android</td><td>Java, Spring, Jsp, Object-C</td><td>MySQL</td><td>Eclipse, Svn, Jira</td><td></td><td></td></tr>
+          <tr><td>나노안전성기술지원센터</td><td>2016.08 ~2016,12</td><td>한국표준기술과학연구원</td><td>트라이앵글와이드</td><td>개발, PL</td><td>CentOS</td><td>Java, Spring, Jsp</td><td>MySQL</td><td>Eclipse, Svn, Jira</td><td></td><td></td></tr>
+          <tr><td>수원 청년 바람지대</td><td>2016.09 ~2016.11</td><td>수원시</td><td>트라이앵글와이드</td><td>개발, PL</td><td>CentOS</td><td>Java, Spring, Jsp</td><td>MySQL</td><td>Eclipse, Svn, Jira</td><td></td><td></td></tr>
+          <tr><td>헬스테인먼트 자원 연계형 MICARE 플랫폼 구축</td><td>2016.06 ~2016.12</td><td>힐리언스</td><td>트라이앵글와이드</td><td>개발, PL</td><td>Windows, Android</td><td>Java, Spring, Jsp, C++</td><td>MySQL</td><td>Eclipse, Svn, Jira, C++Builder XE6</td><td>BLE</td><td></td></tr>
+          <tr><td>한국고용 복지스마트 센터</td><td>2016.02 ~2016.06</td><td>한국고용정보원</td><td>트라이앵글와이드</td><td>개발, PL</td><td>CentOS,Windows</td><td>Java, Spring, Jsp, C++</td><td>MySQL, Oracle, Tibero</td><td>Eclipse, Svn, Jira, C++Builder XE6</td><td></td><td></td></tr>
+          <tr><td>SKT ThingPlug Ready를 위한 Device Middleware</td><td>2015.06 ~2015.12</td><td>SKT</td><td>트라이앵글와이드</td><td>개발, PL</td><td>CentOS</td><td>Java, C++, ShellScript, NodeJS</td><td>MySQL</td><td>Eclipse, Svn, Jira</td><td>MQTT</td><td>BlackBoneBegle</td></tr>
+          <tr><td>SKT AR시스템 관리서비스 및 APP 개발</td><td>2015.04 ~2015.05</td><td>SKT</td><td>트라이앵글와이드</td><td>개발, PL</td><td>CentOS</td><td>Java, Spring, Jsp, C++</td><td>MySQL</td><td>Eclipse, Svn, Jira</td><td></td><td></td></tr>
+          <tr><td>압력센서의 데이터를 통한 두이노로 활용하여 블루투스를통한 자세교정 APP / ADMIN / API서버 구축</td><td>2015.01 ~2015.03</td><td>싸이픽스</td><td>트라이앵글와이드</td><td>개발, PL</td><td>CentOS,Android, Arduino</td><td>Java, C++</td><td>MySQL</td><td>Eclipse, Svn, Jira</td><td>Bluetooth</td><td>MCU : Cortex-M3</td></tr>
+          <tr><td>회의실 예약 솔루션 , DID, 방문자 관리 서비스, 미팅룸 예약 솔루션, 스마트사이니지 개발 구축</td><td>2014.12 ~2015.03</td><td>IBM</td><td>트라이앵글와이드</td><td>개발, PL</td><td>CentOS,Windows, iOS</td><td>Java, C++, Object-C</td><td>MySQL</td><td>Eclipse, Svn, Jira, XCode</td><td></td><td></td></tr>
+          <tr><td>스마트 콘텐츠 UX프레임워크 개발</td><td>2014.11 ~2015.03</td><td>한국문화컨텐츠진흥원</td><td>트라이앵글와이드</td><td>개발</td><td>CentOS</td><td>Java, Spring, Jsp</td><td></td><td>Eclipse, Svn, Jira</td><td></td><td></td></tr>
+          <tr><td>SKP Smart Beacon RemoteControl 시스템</td><td>2014.10 ~2014.11</td><td>SKP</td><td>트라이앵글와이드</td><td>개발, PL</td><td>CentOS,Android</td><td>Java, Spring, Jsp</td><td>MySQL</td><td>Eclipse, Svn, Jira</td><td>BLE</td><td></td></tr>
+          <tr><td>뉴스 연동 시스템</td><td>2014.11 ~2015.02</td><td>씨온드림</td><td>트라이앵글와이드</td><td>개발</td><td>CentOS</td><td>Java, Spring, Jsp</td><td>MySQL</td><td>Eclipse, Svn, Jira</td><td></td><td></td></tr>
+          <tr><td>사랑채 스토리</td><td>2014.11 ~2014.12</td><td>이원전시</td><td>트라이앵글와이드</td><td>개발</td><td>Windows</td><td>Java, Spring, Jsp</td><td>MySQL</td><td>Eclipse, Svn, Jira</td><td></td><td></td></tr>
+          <tr><td>2014 창조경제박람회</td><td>2014.10 ~2014.10</td><td>GS리테일</td><td>트라이앵글와이드</td><td>개발</td><td>Windows</td><td>Java, Spring, Jsp</td><td>MySQL</td><td>Eclipse, Svn, Jira</td><td></td><td></td></tr>
+          <tr><td>WIS전시(BLE!Pay)</td><td>2014.10 ~2014.10</td><td>SKT</td><td>트라이앵글와이드</td><td>개발</td><td>CentOS</td><td>Java, Spring, Jsp</td><td>MySQL</td><td>Eclipse, Svn, Jira</td><td></td><td></td></tr>
+          <tr><td>SKT IPTV 체감품질 통합관리시스템</td><td>2014.07 ~2014.12</td><td>SKT</td><td>트라이앵글와이드</td><td>개발, PL</td><td>CentOS</td><td>Java, Spring, Jsp, C++</td><td>MySQL</td><td>Eclipse, Svn, Jira</td><td></td><td></td></tr>
+          <tr><td>KRISS 효율적인 R&D 업무를 위한 기술지원 홈페이지 구축 및 크리스타 UI 개선</td><td>2014.08 ~2014.09</td><td>한국표준과학연구원</td><td>트라이앵글와이드</td><td>개발, PL</td><td>RedHat</td><td>Java, Spring, Jsp</td><td>Oracle, Tibero</td><td>Eclipse, Svn, Jira</td><td></td><td>Jeus, WebtoB</td></tr>
+          <tr><td>KRISS 미래창조과학부지침에 따른 사전정보공표 홈페이지 고도화</td><td>2014.06 ~2014.07</td><td>한국표준과학연구원</td><td>트라이앵글와이드</td><td>개발</td><td>RedHat</td><td>Java, Spring, Jsp</td><td>Oracle</td><td>Eclipse, Svn, Jira</td><td></td><td>Jeus, WebtoB</td></tr>
+          <tr><td>SKBHTML5기반부가서비스기획및구축</td><td>2014.07 ~2014.10</td><td>㈜네오컨버전스</td><td>트라이앵글와이드</td><td>개발</td><td>Windows, Android</td><td>Java</td><td>MySQL</td><td>Eclipse, Svn, Jira</td><td></td><td></td></tr>
+          <tr><td>SKT Offline Payment 기술개발프로젝트 위탁 용역</td><td>2014.06 ~2014.09</td><td>프랜디(주)</td><td>트라이앵글와이드</td><td>개발</td><td>CentOS,Android</td><td>Java, Spring, Jsp</td><td>MySQL</td><td>Eclipse, Svn, Jira</td><td></td><td></td></tr>
+          <tr><td>삼성SDS 新정보자료실 디지털시스템 구축</td><td>2014.05 ~2014.07</td><td>㈜비알네트콤</td><td>트라이앵글와이드</td><td>개발</td><td>Windows</td><td>Java, Spring, Jsp</td><td>MySQL</td><td>Eclipse, Svn, Jira</td><td></td><td></td></tr>
+          <tr><td>유유제약 / 패밀리사이트</td><td>2014.01 ~2014.11</td><td>유유제약</td><td>트라이앵글와이드</td><td>개발</td><td>CentOS</td><td>PHP</td><td>MySQL</td><td>EditPlus, Svn, Jira</td><td></td><td></td></tr>
+          <tr><td>NCT</td><td>2013.01 ~2014.05</td><td>NCT</td><td>NCT</td><td>개발</td><td>CentOS ,Windows</td><td>ASP, PHP</td><td>MySQL, MSSQL, Oracle</td><td>EditPlus, Svn</td><td></td><td></td></tr>
+          <tr><td>주차관제시스템</td><td>2012.07 ~2012.12</td><td>상진유니텍</td><td>상진유니텍</td><td>PM, 개발</td><td>Windows</td><td>C++</td><td>MySQL</td><td>C++Builder XE6</td><td></td><td></td></tr>
+          <tr><td>후지필름 홈페이지</td><td>2012.03 ~2012.06</td><td>후지필름 코리아</td><td>트라이앵글와이드</td><td>개발</td><td>CentOS</td><td>Java, Spring, Jsp</td><td>MySQL</td><td>Eclipse, Svn, Redmine</td><td></td><td></td></tr>
+          <tr><td>OpenAPI 스크립트코어 개발</td><td>2011.10 ~2011.12</td><td>SK C&C</td><td>트라이앵글와이드</td><td>개발</td><td>Windows</td><td>Javascript</td><td></td><td>Eclipse, Svn, Redmine</td><td></td><td></td></tr>
+          <tr><td>E-Broshure서비스</td><td>2011.09 ~2011.12</td><td>유한킴벌리</td><td>트라이앵글와이드</td><td>개발</td><td>Windows</td><td>Java, Spring, Jsp</td><td>PostgreSQL</td><td>Eclipse, Svn, Redmine</td><td></td><td></td></tr>
+          <tr><td>KBS 통합 검색 서비스</td><td>2011.12 ~2011.12</td><td>KBS</td><td>트라이앵글와이드</td><td>개발</td><td>CentOS</td><td>Java, Spring, Jsp</td><td>Oracle</td><td>Eclipse, Svn, Redmine</td><td></td><td></td></tr>
+          <tr><td>교과제교실(SMC)</td><td>2011.12 ~2012.02</td><td>삼성전자</td><td>트라이앵글와이드</td><td>개발</td><td>Windows</td><td>Java, Spring, Jsp</td><td>MySQL</td><td>Eclipse, Svn, Redmine</td><td></td><td></td></tr>
+          <tr><td>한국장학재단 FUN APP 개발(꽃드림)</td><td>2011.10 ~2012.02</td><td>한국장학재단</td><td>트라이앵글와이드</td><td>개발</td><td>Android</td><td>Java</td><td>SQLite</td><td>Eclipse, Svn, Redmine</td><td></td><td></td></tr>
+          <tr><td>대교이노피 글로벌 / 미주 / 로컬 사이트 개편</td><td>2011.09 ~2011.12</td><td>대교이노피</td><td>트라이앵글와이드</td><td>개발</td><td>Windows</td><td>ASP.NET</td><td>MSSQL</td><td>Visual Studio, Svn</td><td></td><td></td></tr>
+          <tr><td>SNGGAME개발</td><td>2011.08~</td><td>트라이앵글와이드</td><td>트라이앵글와이드</td><td>개발</td><td>CentOS</td><td>Java, Spring, Jsp</td><td>MySQL</td><td>Eclipse, Svn</td><td></td><td></td></tr>
+          <tr><td>한국장학재단 앱 및 웹사이트 개편</td><td>2011.06 ~2011.08</td><td>한국장학재단</td><td>트라이앵글와이드</td><td>개발</td><td>RedHat</td><td>Java, Spring, Jsp</td><td>Oracle</td><td>Eclipse, Svn</td><td></td><td>Jeus, WebtoB</td></tr>
+          <tr><td>FENDI패션쇼 프로모션 사이트 제작</td><td>2011.05 ~2011.06</td><td>FENDI</td><td>트라이앵글와이드</td><td>개발</td><td>CentOS</td><td>Java, Spring, Jsp</td><td>MySQL</td><td>Eclipse, Svn</td><td></td><td></td></tr>
+          <tr><td>MIBOOK사이트제작</td><td>2011.03 ~2011.04</td><td>MIBOOK</td><td>트라이앵글와이드</td><td>개발</td><td>CentOS</td><td>PHP</td><td>MySQL</td><td>EditPlus, Svn</td><td></td><td></td></tr>
+          <tr><td>성균관대학교 웹사이트 개편</td><td>2010.11 ~2011.01</td><td>성균관대학교</td><td>트라이앵글와이드</td><td>개발</td><td>CentOS</td><td>PHP</td><td>MySQL</td><td>EditPlus, Svn</td><td></td><td></td></tr>
+          <tr><td>화성교육청 웹사이트 개편</td><td>2010.07 ~2010.08</td><td>화성교육청</td><td>NetFinder</td><td>개발</td><td>CentOS</td><td>PHP</td><td>MySQL</td><td>EditPlus, Svn</td><td></td><td></td></tr>
+          <tr><td>스쿨박스 시스템 제작</td><td>2010.05 ~2010.07</td><td>안양 스쿨협회</td><td>NetFinder</td><td>개발</td><td>CentOS</td><td>PHP</td><td>Oracle</td><td>EditPlus, Svn</td><td></td><td></td></tr>
+          <tr><td>커리어에듀 웹사이트 제작</td><td>2010.03 ~2010.05</td><td>커리어에듀</td><td>NetFinder</td><td>개발</td><td>CentOS</td><td>PHP</td><td>MySQL</td><td>EditPlus, Svn</td><td></td><td></td></tr>
+          <tr><td>보령 머드축제 웹사이트 개편</td><td>2010.03 ~2010.03</td><td>보령시</td><td>NetFinder</td><td>개발</td><td>CentOS</td><td>PHP</td><td>MySQL</td><td>EditPlus, Svn</td><td></td><td></td></tr>
+          <tr><td>무창포 IT체험 웹사이트 제작</td><td>2010.02 ~2010.02</td><td>보령시</td><td>NetFinder</td><td>개발</td><td>CentOS</td><td>PHP</td><td>MySQL</td><td>EditPlus, Svn</td><td></td><td></td></tr>
+          <tr><td>IP TV FORUM 웹사이트 제작</td><td>2010.01 ~2010.01</td><td>개방형컴퓨터통신 연구회</td><td>NetFinder</td><td>개발</td><td>CentOS</td><td>PHP</td><td>MySQL</td><td>EditPlus, Svn</td><td></td><td></td></tr>
+          <tr><td>동방경희한의원 웹사이트 제작</td><td>2009.12 ~2009.12</td><td>동방경희한의원</td><td>NetFinder</td><td>개발</td><td>CentOS</td><td>PHP</td><td>MySQL</td><td>EditPlus, Svn</td><td></td><td></td></tr>
+          <tr><td>마루 웹사이트 제작</td><td>2009.10 ~2009.11</td><td>마루</td><td>NetFinder</td><td>개발</td><td>CentOS</td><td>PHP</td><td>MySQL</td><td>EditPlus, Svn</td><td></td><td></td></tr>
+          <tr><td>동서에프인 웹사이트 제작</td><td>2009.09 ~2009.10</td><td>동서에프인</td><td>NetFinder</td><td>개발</td><td>CentOS</td><td>PHP</td><td>MySQL</td><td>EditPlus, Svn</td><td></td><td></td></tr>
+          <tr><td>오시아 웹사이트 제작</td><td>2009.08 ~2009.09</td><td>오시아</td><td>NetFinder</td><td>개발</td><td>Windows</td><td>ASP</td><td>MSSQL</td><td>Visual Studio, Svn</td><td></td><td></td></tr>
+          <tr><td>아일랜드 디자인 웹사이트 제작</td><td>2009.07 ~2009.08</td><td>아일랜드 디자인</td><td>NetFinder</td><td>개발</td><td>Windows</td><td>ASP</td><td>MSSQL</td><td>Visual Studio, Svn</td><td></td><td></td></tr>
+          <tr><td>온누리웨딩 웹사이트 제작</td><td>2009.06 ~2009.07</td><td>온누리웨딩</td><td>NetFinder</td><td>개발</td><td>Windows</td><td>ASP</td><td>MSSQL</td><td>Visual Studio, Svn</td><td></td><td></td></tr>
+          <tr><td>우진산전 웹사이트 제작</td><td>2009.05 ~2009.06</td><td>우진산전</td><td>NetFinder</td><td>개발</td><td>Windows</td><td>ASP</td><td>MSSQL</td><td>Visual Studio, Svn</td><td></td><td></td></tr>
+          <tr><td>리카루트 웹사이트 제작</td><td>2009.04 ~2009.05</td><td>리카루트</td><td>NetFinder</td><td>개발</td><td>Windows</td><td>ASP</td><td>MSSQL</td><td>Visual Studio, Svn</td><td></td><td></td></tr>
+          <tr><td>한국 정보 과학회 웹사이트 제작</td><td>2009.03 ~2009.04</td><td>한국 정보 과학회</td><td>NetFinder</td><td>개발</td><td>CentOS</td><td>PHP</td><td>MySQL</td><td>EditPlus, Svn</td><td></td><td></td></tr>
+          <tr><td>오뚜기 횟집 웹사이트 제작</td><td>2009.02 ~2009.03</td><td>오뚜기 횟집</td><td>NetFinder</td><td>개발</td><td>Windows</td><td>ASP</td><td>MSSQL</td><td>Visual Studio, Svn</td><td></td><td></td></tr>
+          <tr><td>나노펜션 웹사이트 제작</td><td>2009.01 ~2009.02</td><td>나노펜션</td><td>NetFinder</td><td>개발</td><td>CentOS</td><td>PHP</td><td>MySQL</td><td>EditPlus, Svn</td><td></td><td></td></tr>
+          <tr><td>비니피아 홈페이지 제작</td><td>2008.11 ~2008.12</td><td>비니피아</td><td>NetFinder</td><td>개발</td><td>CentOS</td><td>PHP</td><td>MySQL</td><td>EditPlus, Svn</td><td></td><td></td></tr>
+          <tr><td>유모던 컴퓨팅 홈페이지 / 쇼핑몰 개발</td><td>2008.11 ~2008.12</td><td>유모던 컴퓨팅</td><td>NetFinder</td><td>개발</td><td>CentOS</td><td>PHP</td><td>MySQL</td><td>EditPlus, Svn</td><td></td><td></td></tr>
+          <tr><td>스피드테크 홈페이지 제작</td><td>2008.10 ~2008.11</td><td>스피드테크 (주)</td><td>NetFinder</td><td>개발</td><td>CentOS</td><td>PHP</td><td>MySQL</td><td>EditPlus, Svn</td><td></td><td></td></tr>
+          <tr><td>유학멘토 홈페이지 제작</td><td>2008.10 ~2008.11</td><td>유학멘토</td><td>NetFinder</td><td>개발</td><td>CentOS</td><td>PHP</td><td>MySQL</td><td>EditPlus, Svn</td><td></td><td></td></tr>
+          <tr><td>샤인 커뮤니케이션 홈페이지 제작</td><td>2008.08 ~2008.10</td><td>샤인</td><td>NetFinder</td><td>개발</td><td>CentOS</td><td>PHP</td><td>MySQL</td><td>EditPlus, Svn</td><td></td><td></td></tr>
+          <tr><td>정보기술아키텍처포탈 홈페이지 개편</td><td>2008.06 ~2008.08</td><td>한국정보화진흥원</td><td>NetFinder</td><td>개발</td><td>CentOS</td><td>PHP</td><td>MySQL</td><td>EditPlus, Svn</td><td></td><td></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
