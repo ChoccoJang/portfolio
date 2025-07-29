@@ -113,6 +113,24 @@
     @keyframes spin {
         to { transform: rotate(360deg); }
     }
+    
+    @media (max-width: 600px) {
+    .nav button {
+        flex: 1 1 auto;
+        padding: 10px;
+        font-size: 14px;
+    }
+    .fortune-item {
+        font-size: 15px;
+    }
+    .fortune-box {
+        padding: 10px;
+    }
+    .zodiac-icons img {
+        width: 40px;
+        height: 40px;
+    }
+    }
   </style>
   <script>
     document.addEventListener("DOMContentLoaded", function() {
